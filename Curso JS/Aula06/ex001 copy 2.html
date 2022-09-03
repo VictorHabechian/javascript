@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Meu Primeiro Programa...</title>
+    <style>
+        body{
+            background-color: rgb(118, 118, 224);
+            color: white; /*comentário em css3 */
+            font: normal 15pt Arial;
+        }
+        h1 {
+            color: rgb(219, 157, 63);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola, mundo!</h1> <!--Comentário em html-->
+    <p>Ja me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número:')) //string
+        var n2 = Number(window.prompt('Digite outro número:')) //string
+        var s = n1 + n2
+        window.alert(`A soma dos valores ${n1} e ${n2} é ${s}`) // '+' é  utilizado para concatenação ou adição
+        //number + number -> é para adição
+        //string + string -> é para concatenação
+        //window.prompt retorna uma string
+        // String(n) -> converter para string
+        // n.toString()
+        // s.length -> conta quantas string tem
+        // s.toUpperCase() -> tudo maiúsculo
+        // s.toLowerCase() -> tudo minúsculo
+    </script>
+</body>
+</html>
