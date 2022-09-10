@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Contador</title>
+    <title>Super Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Vamos Calcular</h1>
     </header>
-    <section>
+    <section> <!-- Coloando todos os inputs como parágrados, quebrando linha e dando espaço! -->
         <div id="dados">
             <p>Início:
                 <input type="number" name="inicio" id="txti">
@@ -22,7 +22,10 @@
             <p>Passo:
                 <input type="number" name="passo" id="txtp">
             </p>
-            <p><input type="button" value="Contar" onclick="contar()"></p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
         <div id="res">
             Preparando a contagem...
         </div>
